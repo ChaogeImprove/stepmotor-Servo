@@ -14,7 +14,7 @@ void setup()
 
 void loop(){
   Rotation();
-  stopRotate;
+  stopRotate();
   while(1);
 }
 //函数部分..............................................
@@ -85,7 +85,7 @@ void Rotation(){//根据角度正转
   }
   stopRotate();
 }
-void rev_Rotion(){//根据角度反转
+void rev_Rotation(){//根据角度反转
   int i=0;
   while(i<angle){
     i++;
